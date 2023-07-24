@@ -1,3 +1,6 @@
+
 module.exports = {
-    publicPath: process.env.NODE_ENV === "production" ? "/REPO_NAME_gamesopinion_produccion/" : "/",
-};
+    publicPath: process.env.NODE_ENV === 'production'
+      ? '/gamesopinion_produccion/'
+      : '/'
+  }
